@@ -6,7 +6,7 @@ This ingestion process retrieves brewery data from a public API:
 🔗 Open Brewery DB API
 
 ## ⚙️ Orchestration
-	•	Databricks Workflows
+- Databricks Workflows
 
 ## 🚀 Project Decisions
 
@@ -22,16 +22,7 @@ Some best practices and requirements were omitted due to technical constraints i
 
 🔄 Future Improvements:
 
-✅ Unit and integration tests across all pipeline layers.
-✅ Refactoring common functions (e.g., read/write operations) to avoid code duplication.
-✅ CI/CD integration, enabling direct repository deployment to Databricks.
-✅ Data quality monitoring and alerting using the Great Expectations framework.
-
-## 📊 Expected Gold Layer Output
-
-state_partition	| city_partition |brewery_type	brewery_count
-NY	New York	micro	15
-NY	Brooklyn	brewpub	8
-CA	Los Angeles	nano	5
-
-This version enhances clarity, structure, and readability while maintaining the original intent. Let me know if you need further refinements!
+- ✅ Unit and integration tests across all pipeline layers.
+- ✅ Refactoring common functions (e.g., read/write operations) to avoid code duplication.
+- ✅ CI/CD integration, enabling direct repository deployment to Databricks.
+- ✅ Data quality monitoring and alerting using the Great Expectations framework.
