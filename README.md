@@ -29,7 +29,7 @@ Some best practices and requirements were omitted due to technical constraints i
 
 ## 📊 Expected Gold Layer Output
 
-state_partition	city_partition	brewery_type	brewery_count
+state_partition	| city_partition |brewery_type	brewery_count
 NY	New York	micro	15
 NY	Brooklyn	brewpub	8
 CA	Los Angeles	nano	5
